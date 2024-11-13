@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bambu Glass</title>
+    <link rel="stylesheet" href="paj1.css">
+    <script src="Pag1.js"></script>
+    <!---cabeceraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
+<header>
+    <img src="Bambuglasslogo.jfif" alt="Encabezado">
+    <div class="buscador">
+        <form action="/buscar" method="GET">
+            <br>
+            <div class="icon">
+                <a href="registro.php" class="icon">
+                  <ion-icon name="person-circle-outline"></ion-icon>
+                </a>
+              </div>
+              
+            <br>
+            <input type="text" id="searchInput" name="q" placeholder="Buscar..." required>
+            <span class="borrar" onclick="borrarTexto()">&#10006;</span> <!-- Icono de borrar -->
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+<!--aqui va las paginas-->
+<nav>
+    <ul>
+        <li><a href="Index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="Sugerencias.html">Sugerencias y comentarios</a></li>
+        <br>
+        <br>
+        <br>
+    </ul>
+</nav>
+   <!--aqui acaban las paginas-->
+</header>
+<!--cabezeraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
+</head>
+<body>
+    <!--cuerpooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo-->
+    <div class="introduccion">
+        <h1>Bambu Glass</h1>
+        <h2>¿Quienes somos?</h2>
+    
+        <p>
+            Al elegir armazones de bambúglass hechos con bambú 100% mexicano, estás apoyando a la industria local..El bambú es un material renovable que crece rápidamente, lo que lo convierte en una opción sostenible para los armazones;            Los armazones de lentes de bambúglass te ofrecen estilo, comodidad, sostenibilidad y apoyo local. ¡Elige una opción diferente!
+        </p>
+       
+    </div>
+    <!-- Aquí van los productos -->
+        <h3>Nuestros productos</h3>
+
+    <div id="productos" style="display: flex; justify-content: center; flex-wrap: wrap;">
+        
+    <br>
+          <div class="producto">
+            <img src="img.jpg" alt="Lente">
+            <div class="detalles">
+              <h2>Lente</h2>
+              <p>Precio: x$ </p>
+              <button onclick="comprar('Lente1', 100)">Comprar</button>
+            </div>
+          </div>
+
+          <div class="producto">
+            <img src="img.jpg" alt="Lente">
+            <div class="detalles">
+              <h2>Lente 2</h2>
+              <p>Precio: x$ </p>
+              <button onclick="comprar('Lente2', 100)">Comprar</button>
+            </div>
+          </div>
+
+          <div class="producto">
+            <img src="img.jpg" alt="Lente">
+            <div class="detalles">
+              <h2>Lente 3</h2>
+              <p>Precio: x$ </p>
+              <button onclick="comprar('Lente3', 100)">Comprar</button>
+            </div>
+          </div>
+
+    </div>
+        <!-- Aquí van los productos -->
+         <!--AQUI VA RL BOTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOON-->
+        <button type="post" name="button">Ver mas-></button> 
+          <!--AQUI VA RL BOTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOON-->
+
+
+    <!--cuerpoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo-->
+    <footer>
+        <br>
+        <br><br><br>
+        <footer class="footer">
+            <div>
+            <ul class="Social-icon">
+                <li class="icon-elemen">
+                    <a href="" class="icon">
+                        <ion-icon name="logo-youtube" role="img" class="md hydrated"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class="Social-icon">
+                <li class="icon-elemen">
+                    <a href="https://www.instagram.com/bambu_glass_/profilecard/?igsh=aWkydTh1OXUyMmM0" class="icon">
+                        <ion-icon name="logo-instagram" role="img" class="md hydrated"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+            </div>
+            <div>
+            <ul class="Social-icon">
+                <li class="icon-elemen">
+                    <a href="" class="icon">
+                        <ion-icon name="logo-whatsapp" role="img" class="md hydrated"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+            </div>
+            <div>
+            <ul class="Social-icon">
+                <li class="icon-elemen">
+                    <a href="" class="icon">
+                        <ion-icon name="mail-outline" role="img" class="md hydrated"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+            </div>
+            <div>
+            <ul class="Social-icon">
+                <li class="icon-elemen">
+                    <a href="" class="icon">
+                        <ion-icon name="logo-facebook" role="img" class="md hydrated"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+            </div>
+        <p>&copy; 2024 Bambu Glass. Todos los derechos reservados.</p>
+        <p>Contacto: bambuglass@gmail.com</p> 
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    
+    </div></div></div></div></div></div></body></html>
+    </footer>
+</body>
+</html>
